@@ -5,7 +5,7 @@ import MobileMenu from "./MobileMenu";
 import LanguageChanger from "../LanguageChanger";
 import MenuItemsDesktop from "./MenuItemsDesktop";
 import { Logo } from "@/components/Main";
-import { HeaderClient } from "@/components/Animations";
+import HeaderClient from "@/components/Animations/HeaderClient";
 
 async function Header({ locale }: { locale: string }) {
 

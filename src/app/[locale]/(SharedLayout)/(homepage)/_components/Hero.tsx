@@ -1,6 +1,6 @@
 "use client";
 
-import { ButtonGrid } from "@/components/Animations";
+import ButtonGrid from "@/components/Animations/ButtonGrid";
 import React, { useRef, useState } from "react";
 
 
