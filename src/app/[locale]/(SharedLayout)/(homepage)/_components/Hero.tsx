@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from "react";
 import HomeClient from "./HomeClient";
-import ButtonGrid from "./ButtonGrid";
+import ButtonGrid from "../../../../../components/Animations/ButtonGrid";
 
 
 const Hero = () => {
