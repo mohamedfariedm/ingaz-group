@@ -1,8 +1,7 @@
 "use client";
 
+import { ButtonGrid } from "@/components/Animations";
 import React, { useRef, useState } from "react";
-import HomeClient from "./HomeClient";
-import ButtonGrid from "../../../../../components/Animations/ButtonGrid";
 
 
 const Hero = () => {

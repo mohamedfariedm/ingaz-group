@@ -1,10 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
-import { useTranslation } from "react-i18next";
 import Popup from "./Popup";
-import ThirdSection from "./ThirdSection";
 import FormPopup from "./FormPopup";
 
 
