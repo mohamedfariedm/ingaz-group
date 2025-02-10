@@ -1,0 +1,57 @@
+{
+  "PreHeading": "Contact Sales",
+  "Heading": "Let’s Talk About Your Financial Needs",
+  "SubHeading": "Our team is here to help you discover how ADVIX can enhance your financial management. Reach out to us and start your journey toward smarter financial decisions.",
+  "form": {
+    "firstName": {
+      "label": "First Name",
+      "placeholder": "First Name"
+    },
+    "lastName": {
+      "label": "Last Name",
+      "placeholder": "Last Name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Email"
+    },
+    "subject": {
+      "label": "Subject",
+      "placeholder": "Subject"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Message"
+    },
+    "PrivacyCheck": {
+      "checkboxLabel": "You agree to our friendly ",
+      "checkboxLink": "privacy policy."
+    },
+    "SubmitBtnComponent": { "value": "Send message" },
+    "success_toast": "The message has been sent successfully"
+  },
+  "validations": {
+    "firstName": {
+      "required": "First name is required."
+    },
+    "lastName": {
+      "required": "Last name is required."
+    },
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid email address."
+    },
+    "subject": {
+      "required": "Subject is required."
+    },
+    "message": {
+      "required": "Message is required."
+    },
+    "privacyPolicy": {
+      "required": "You must agree to the privacy policy."
+    }
+  },
+  "sales":"Sales",
+  "technical":"Technical"
+
+}

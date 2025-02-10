@@ -1,0 +1,29 @@
+{
+  "TopBanner": "📣 New feature — Check out the data entry dashboard",
+  "menu": ["Features", "Blog", "Contact Sales"],
+  "header": {
+    "login": "Login",
+    "sign-up": "Sign up"
+  },
+  "error": { "title": "Something went wrong!", "cta": "Try again" },
+  "header_cta": "Start Free Trial",
+  "footer": {
+    "copy_right": "{{year}} Advix. All rights reserved."
+  },
+  "StartFreeTrial": {
+    "Heading": "Ready to Transform Your Financial Management?",
+    "SubHeading": "Get started with ADVIX today and see how our AI-driven insights can streamline your financial strategy.",
+    "cta": " Start Your Free Trial"
+  },
+  "NoItemsFound": {
+    "items": "No items found!",
+    "items_posts": "No posts found!"
+  },
+  "Error": "Something went wrong!",
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "current_page": "Page {{page}} of {{lastPage}}"
+  },
+  "CopyToClipboard": "Copy link"
+}

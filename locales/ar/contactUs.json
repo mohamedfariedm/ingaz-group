@@ -1,0 +1,56 @@
+{
+  "PreHeading": "اتصل بالمبيعات",
+  "Heading": "دعونا نتحدث عن احتياجاتك المالية",
+  "SubHeading": "فريقنا هنا لمساعدتك في اكتشاف كيف يمكن لـ ADVIX تحسين إدارة أموالك. تواصل معنا وابدأ رحلتك نحو اتخاذ قرارات مالية أكثر ذكاءً.",
+  "form": {
+    "firstName": {
+      "label": "الاسم الأول",
+      "placeholder": "الاسم الأول"
+    },
+    "lastName": {
+      "label": "الاسم الثاني",
+      "placeholder": "الاسم الثاني"
+    },
+    "email": {
+      "label": "البريد الإلكتروني",
+      "placeholder": "البريد الإلكتروني"
+    },
+    "subject": {
+      "label": "الغرض",
+      "placeholder": "الغرض"
+    },
+    "message": {
+      "label": "الرسالة",
+      "placeholder": "الرسالة"
+    },
+    "PrivacyCheck": {
+      "checkboxLabel": "اوافق على ",
+      "checkboxLink": "سياسة الخصوصية."
+    },
+    "SubmitBtnComponent": { "value": "إرسال الرسالة" },
+    "success_toast": "تم إرسال الرسالة بنجاح"
+  },
+  "validations": {
+    "firstName": {
+      "required": "الاسم الأول مطلوب."
+    },
+    "lastName": {
+      "required": "اسم الثاني مطلوب."
+    },
+    "email": {
+      "required": "البريد الإلكتروني مطلوب.",
+      "pattern": "البريد الإلكتروني غير صالح."
+    },
+    "subject": {
+      "required": "الغرض مطلوب."
+    },
+    "message": {
+      "required": "الرسالة مطلوبة."
+    },
+    "privacyPolicy": {
+      "required": "يجب أن توافق على سياسة الخصوصية."
+    }
+  },
+  "sales": "المبيعات",
+  "technical": "التقنيات"
+}

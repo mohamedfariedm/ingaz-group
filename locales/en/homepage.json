@@ -1,0 +1,117 @@
+{
+  "hero": {
+    "title": "Smart Financial AI  Insights for Your Business Growth",
+    "subtitle": "AI-powered financial insights for smarter decisions. ADVIX simplifies managing your finances with clarity, precision, and actionable guidance.",
+    "cta": "Get Started Now",
+    "cta_2": "Watch video",
+    "AnimatedInputText": { "cta": "Generate", "sentences": ["How to Calculate Net Profit","How to Improve Cash Flow","What is Break-Even Analysis"] }
+  },
+  "clients": { "title": "Join 4,000+ companies already growing" },
+  "features": {
+    "PreHeading": "Features",
+    "Heading": "Streamline Your Finances",
+    "SubHeading": "Efficiently manage data, forecast outcomes, and receive real-time insights. Our tools simplify your financial tasks, keeping you informed and in control.",
+    "list": [
+      {
+        "heading": "AI Chatbot",
+        "subheading": "Get instant answers and guidance on financial matters—whether you're an expert or just starting out."
+      },
+      {
+        "heading": "Data Entry Dashboard",
+        "subheading": "Effortlessly manage and update your financial data with a user-friendly, accurate table format."
+      },
+      {
+        "heading": "Financial Forecasting",
+        "subheading": "Predict future financial outcomes with past data to plan and make informed decisions."
+      },
+      {
+        "heading": "Automated Notifications",
+        "subheading": "Receive timely alerts on key financial events to act swiftly and stay on top of your finances."
+      },
+      {
+        "heading": "Routine & Notification Settings",
+        "subheading": "Customize routine notifications for financial events, like weekly cash flow reports, to stay informed."
+      },
+      {
+        "heading": "Data Visualization",
+        "subheading": "Transform complex data into clear, actionable charts and graphs for better decision-making."
+      }
+    ]
+  },
+  "values": {
+    "PreHeading": "Our Values",
+    "Heading": "Efficient Financial Management",
+    "SubHeading": "Experience streamlined financial solutions with clear insights, guidance for non-financial managers, real-time analysis, and cost-effective expertise.",
+    "cta": "Get Started Now",
+    "list": [
+      {
+        "heading": "Easy Data Analysis",
+        "subheading": "Turns complex financial data into clear insights, making it easy for you to understand and act on."
+      },
+      {
+        "heading": "Non-Financial Managers",
+        "subheading": "Simplifies financial reports and guides you with key questions, helping you make informed decisions effortlessly."
+      },
+      {
+        "heading": "Fast Insights",
+        "subheading": "Provides real-time, actionable insights to help you make quick and effective decisions for your business."
+      },
+      {
+        "heading": "Affordable Expertise",
+        "subheading": "Offers expert financial analysis and recommendations at a fraction of the cost, enhancing your business."
+      }
+    ]
+  },
+
+  "integrations": {
+    "PreHeading": "Integrations Tools",
+    "Heading": "Seamless Integrations with Your Tools",
+    "SubHeading": "ADVIX connects effortlessly with the tools you already use, streamlining your financial processes."
+  },
+  "testimonials": {
+    "Heading": "With ADVIX, we can easily navigate complex financial data and make informed decisions quickly. Exceptional tool!"
+  },
+
+  "Blogs": {
+    "PreHeading": "Latest posts",
+    "Heading": "Insights from Our Experts",
+    "SubHeading": "Explore the latest trends and tips in financial management with our expert blog posts.",
+    "cta": "View all posts",
+    "list": [
+      {
+        "heading": "Easy Data Analysis",
+        "subheading": "Turns complex financial data into clear insights, making it easy for you to understand and act on."
+      },
+      {
+        "heading": "Non-Financial Managers",
+        "subheading": "Simplifies financial reports and guides you with key questions, helping you make informed decisions effortlessly."
+      },
+      {
+        "heading": "Fast Insights",
+        "subheading": "Provides real-time, actionable insights to help you make quick and effective decisions for your business."
+      },
+      {
+        "heading": "Affordable Expertise",
+        "subheading": "Offers expert financial analysis and recommendations at a fraction of the cost, enhancing your business."
+      }
+    ]
+  },
+  "location": {
+    "Heading": "Where to Find Us",
+    "SubHeading": "ADVIX is proud to serve businesses worldwide. Visit or contact one of our offices in your region for personalized support.",
+    "CommunicationChannels": [
+      {
+        "title": "Support",
+        "description": "Our friendly team is here to help."
+      },
+      {
+        "title": "Sales",
+        "description": "Questions or queries? Get in touch!"
+      },
+      {
+        "title": "Phone",
+        "description": "53 Suwar Street, Al-Yasmin, Thaqif"
+      }
+    ]
+  }
+}
