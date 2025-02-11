@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}
+
 @font-face {
   font-family: 'bukra';
   src: url('../../public/fonts/29LTBukra-Regular.otf') format('opentype');
@@ -17,10 +30,19 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: 'bukra-bold';
+  src: url('../../public/fonts/29LTBukra-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
 
 
 .bukra-semi-bold {
   font-family: 'bukra-semi-bold', sans-serif;
+}
+.bukra-bolder {
+  font-family: 'bukra-bold', sans-serif;
 }
 
 @layer base {

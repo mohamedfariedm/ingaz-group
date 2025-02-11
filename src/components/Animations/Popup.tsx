@@ -20,7 +20,7 @@ const Popup:React.FC<PopupProps> = ({ isOpen, onClose }) => {
           onClick={onClose} // Close on background click
         >
           <motion.div
-            className="w-[100%] max-w-[1440px] h-[100vh] bg-[#191919] rounded-t-3xl pt-6 overflow-y-auto relative"
+            className="w-[100%] max-w-[1440px] h-[100vh] bg-[#191919] rounded-t-3xl pt-6 overflow-y-auto no-scrollbar relative"
             onClick={(e) => e.stopPropagation()} // Prevent closing on inside click
           >
             {/* Close Button */}
@@ -32,7 +32,7 @@ const Popup:React.FC<PopupProps> = ({ isOpen, onClose }) => {
 </button>
 
             {/* Header */}
-            <div className="text-center text-[#575757] text-3xl  bukra-bolder mt-[12px]  mb-[40px]">
+            <div className="text-center text-[#575757] text-[2rem]  bukra-semi-bold  mt-[12px]  mb-[40px]">
               من نحن
             </div>
             <div className="main-container w-full  bg-[url(/assets/images/image.png)] bg-cover bg-center bg-no-repeat rounded-tl-[32px] rounded-tr-[32px] rounded-br-none rounded-bl-none relative   mx-auto my-0" >
@@ -56,7 +56,9 @@ const Popup:React.FC<PopupProps> = ({ isOpen, onClose }) => {
                 <h2 className="text-white text-2xl bukra-semi-bold font-bold text-right">
                   رحـــلة مجموعة إنجاز العالميـــــــة
                 </h2>
-                <p className="text-[#8c8c8c] text-md leading-8 text-right">
+                <p
+               
+                className="text-[#8c8c8c] text-md leading-8 text-right">
                 مجموعة إنجاز العالمية، التي انطلقت من قلب العاصمة الرياض، تمثل نموذجًا رياديًا للمملكة العربية السعودية في تقديم حلول متخصصة وشاملة تخدم مختلف القطاعات الاقتصادية. تأسست المجموعة على يد كلا من الأستاذ محمد صالح السويح والأستاذ علي صالح السويح قبل أكثر من 20 عامًا، برؤية طموحة تهدف إلى تطوير خدمات مبتكرة ومتنوعة وفق أعلى المعايير المحلية والدولية. بدأت المجموعة رحلتها بالخدمات العديدة والمتنوعة التي تلبي احتياجات القطاعات المختلفة، واستمرت في توسيع نطاق عملها لتشمل حلولاً متطورة تعتمد على أحدث التقنيات والشراكات الاستراتيجية.
                 </p>
                 <p className="text-[#8c8c8c] text-md leading-8 text-right">

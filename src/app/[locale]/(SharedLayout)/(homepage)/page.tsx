@@ -9,7 +9,7 @@ const Home = async ({ params: { locale } }: { params: { locale: string } }) => {
   const { t } = await initTranslations(locale, ["homepage"]);
 
   return (
-    <section className="">
+    <section className="z-[1]">
       <Hero  />
     </section>
   );

@@ -7,10 +7,10 @@ import "../../styles/globals.css";
 
 
 export const metadata: Metadata = {
-  title: "Eitmad",
-  description: "Eitmad app",
+  title: "Ingaz Group",
+  description: "Ingaz Group app",
   icons: {
-    icon: "/assets/images/eitmad.svg",
+    icon: "/assets/images/favicon.ico",
   },
 };
 

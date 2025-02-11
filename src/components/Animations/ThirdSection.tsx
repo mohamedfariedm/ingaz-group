@@ -21,7 +21,7 @@ const ThirdSectionComponent:React.FC<PopupProps> = ({ isOpen, onClose }) => {
         onClick={onClose} // Close on background click
       >
         <motion.div
-          className="w-full max-w-[1440px] h-[100vh] bg-[#191919] rounded-t-3xl p-6 overflow-y-auto overflow-x-hidden relative"
+          className="w-full max-w-[1440px] h-[100vh] bg-[#191919] rounded-t-3xl p-6 overflow-y-auto no-scrollbar overflow-x-hidden relative"
           onClick={(e) => e.stopPropagation()} // Prevent closing on inside click
         >
 <div className="main-container w-full max-w-[1360px] h-[80px] relative mx-auto my-0 flex items-center justify-between px-4 lg:px-0">
