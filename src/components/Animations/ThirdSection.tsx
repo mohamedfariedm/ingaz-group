@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface PopupProps {
@@ -7,7 +8,7 @@ interface PopupProps {
   onClose: () => void;
 }
 
-const ThirdSection:React.FC<PopupProps> = ({ isOpen, onClose }) => {
+const ThirdSectionComponent:React.FC<PopupProps> = ({ isOpen, onClose }) => {
   return (
     <AnimatePresence>
     {isOpen && (
@@ -101,4 +102,4 @@ className="w-[40px] h-[40px] bg-[#282828] rounded-[12px] flex items-center justi
   );
 };
 
-export default ThirdSection;
+export const ThirdSection = React.memo(ThirdSectionComponent);
