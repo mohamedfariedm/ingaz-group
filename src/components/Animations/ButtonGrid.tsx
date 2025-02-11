@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function ButtonGrid() {
+ function ButtonGrid() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   // Toggle between 5 and 12 items
@@ -46,3 +46,5 @@ export default function ButtonGrid() {
     </div>
   );
 }
+
+export default ButtonGrid;

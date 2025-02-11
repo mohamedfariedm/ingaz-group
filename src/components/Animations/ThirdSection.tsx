@@ -7,7 +7,7 @@ interface PopupProps {
   onClose: () => void;
 }
 
-const ThirdSection = ({ isOpen, onClose }: PopupProps) => {
+const ThirdSection:React.FC<PopupProps> = ({ isOpen, onClose }) => {
   return (
     <AnimatePresence>
     {isOpen && (

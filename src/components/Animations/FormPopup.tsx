@@ -7,7 +7,7 @@ interface PopupProps {
   onClose: () => void;
 }
 
-const FormPopup = ({ isOpen, onClose }: PopupProps) => {
+const FormPopup:React.FC<PopupProps> = ({ isOpen, onClose }: PopupProps) => {
   return (
     <AnimatePresence>
     {isOpen && (
