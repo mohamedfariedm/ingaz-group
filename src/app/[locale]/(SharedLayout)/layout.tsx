@@ -18,7 +18,7 @@ export default async function Layout({
       <div className="overflow-x-hidden overflow-y-hidden relative">
         {/* Background Video */}
         <video 
-          autoPlay={"autoplay"} 
+          autoPlay
           loop 
           muted 
           playsInline
