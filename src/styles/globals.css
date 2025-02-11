@@ -31,7 +31,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'bukra-bold';
+  font-family: 'bukra-bolder';
   src: url('../../public/fonts/29LTBukra-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
@@ -42,7 +42,7 @@
   font-family: 'bukra-semi-bold', sans-serif;
 }
 .bukra-bolder {
-  font-family: 'bukra-bold', sans-serif;
+  font-family: 'bukra-bolder', sans-serif;
 }
 
 @layer base {
