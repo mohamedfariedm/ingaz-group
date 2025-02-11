@@ -3,7 +3,6 @@ import initTranslations from "@/app/i18n";
 import {
   Hero,
 } from "./_components";
-import HomeClient from "./_components/HomeClient";
 
 const Home = async ({ params: { locale } }: { params: { locale: string } }) => {
 

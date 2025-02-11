@@ -4,11 +4,6 @@ import React, { useState } from "react";
 import Popup from "./Popup";
 import FormPopup from "./FormPopup";
 
-
-
-
-
-
 function HeaderClient({
   locale,
   className,

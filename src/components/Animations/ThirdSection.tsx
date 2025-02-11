@@ -94,7 +94,6 @@ className="w-[40px] h-[40px] bg-[#282828] rounded-[12px] flex items-center justi
     </div>
     </div>
 
-          
         </motion.div>
       </motion.div>
     )}
