@@ -1,117 +1,47 @@
 {
   "hero": {
-    "title": "Smart Financial AI  Insights for Your Business Growth",
-    "subtitle": "AI-powered financial insights for smarter decisions. ADVIX simplifies managing your finances with clarity, precision, and actionable guidance.",
-    "cta": "Get Started Now",
-    "cta_2": "Watch video",
-    "AnimatedInputText": { "cta": "Generate", "sentences": ["How to Calculate Net Profit","How to Improve Cash Flow","What is Break-Even Analysis"] }
+    "mainTitle1": "Enjaz Global Group",
+    "mainTitle2": "Enjaz",
+    "mainTitle3": "Today",
+    "mainTitle4": "For Tomorrow's Vision",
+    "subtitle": "At Enjaz Group, we believe that excellence is not an option, but a commitment we work on daily to shape the future. The group excels in transforming challenges into opportunities for success, reinforcing its position as one of the leading entities in the market."
   },
-  "clients": { "title": "Join 4,000+ companies already growing" },
-  "features": {
-    "PreHeading": "Features",
-    "Heading": "Streamline Your Finances",
-    "SubHeading": "Efficiently manage data, forecast outcomes, and receive real-time insights. Our tools simplify your financial tasks, keeping you informed and in control.",
-    "list": [
-      {
-        "heading": "AI Chatbot",
-        "subheading": "Get instant answers and guidance on financial matters—whether you're an expert or just starting out."
-      },
-      {
-        "heading": "Data Entry Dashboard",
-        "subheading": "Effortlessly manage and update your financial data with a user-friendly, accurate table format."
-      },
-      {
-        "heading": "Financial Forecasting",
-        "subheading": "Predict future financial outcomes with past data to plan and make informed decisions."
-      },
-      {
-        "heading": "Automated Notifications",
-        "subheading": "Receive timely alerts on key financial events to act swiftly and stay on top of your finances."
-      },
-      {
-        "heading": "Routine & Notification Settings",
-        "subheading": "Customize routine notifications for financial events, like weekly cash flow reports, to stay informed."
-      },
-      {
-        "heading": "Data Visualization",
-        "subheading": "Transform complex data into clear, actionable charts and graphs for better decision-making."
-      }
-    ]
+  "header": {
+    "aboutUs": "About Us",
+    "companies": "Companies",
+    "careers": "Careers"
   },
-  "values": {
-    "PreHeading": "Our Values",
-    "Heading": "Efficient Financial Management",
-    "SubHeading": "Experience streamlined financial solutions with clear insights, guidance for non-financial managers, real-time analysis, and cost-effective expertise.",
-    "cta": "Get Started Now",
-    "list": [
-      {
-        "heading": "Easy Data Analysis",
-        "subheading": "Turns complex financial data into clear insights, making it easy for you to understand and act on."
-      },
-      {
-        "heading": "Non-Financial Managers",
-        "subheading": "Simplifies financial reports and guides you with key questions, helping you make informed decisions effortlessly."
-      },
-      {
-        "heading": "Fast Insights",
-        "subheading": "Provides real-time, actionable insights to help you make quick and effective decisions for your business."
-      },
-      {
-        "heading": "Affordable Expertise",
-        "subheading": "Offers expert financial analysis and recommendations at a fraction of the cost, enhancing your business."
-      }
-    ]
+  "form": {
+    "title": "Job Application Form",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "message": "Message",
+    "submit": "Submit",
+    "firstNamePlaceholder": "Enter your first name",
+    "lastNamePlaceholder": "Enter your last name",
+    "emailPlaceholder": "you@company.com",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "messagePlaceholder": "Leave us a message...",
+    "successMessage": "Form submitted successfully!",
+    "errors": {
+      "firstName": "First name is required and must be at least 2 characters",
+      "lastName": "Last name is required and must be at least 2 characters",
+      "email": "Invalid email format",
+      "phone": "Phone number is required and must be at least 8 digits"
+    }
   },
+  "about": {
+    "title": "About Us",
+    "companyJourney": "The Journey of Injaaz Global Group",
+    "companyJourneyText": "Injaaz Global Group, originating from the heart of Riyadh, represents a pioneering model of Saudi Arabia in providing specialized and comprehensive solutions serving various economic sectors. The group was founded by Mr. Mohammed Saleh Al-Suwaih and Mr. Ali Saleh Al-Suwaih over 20 years ago, with an ambitious vision aimed at developing innovative and diverse services according to the highest local and international standards. The group began its journey with numerous and diverse services that meet the needs of different sectors and continued to expand its scope to include advanced solutions based on the latest technologies and strategic partnerships.",
+    "companySuccessText": "The group has distinguished itself by its ability to turn challenges into success opportunities, strengthening its position as one of the leading entities in the market, with a team of more than 700 employees and the trust of over 3,000 clients in various fields. The group has received several prestigious awards, including the 'Best Work Environment 2024' award, and has entered into strategic partnerships with international organizations such as NATO. Injaaz Global Group is committed to global quality standards and holds accredited certifications like ISO, reflecting its firm vision for excellence and innovation in various services.",
+    "futureVision": "Our Future Vision",
+    "futureVisionText": "Injaaz Global Group, which combines innovation and expertise, is an ideal partner for enhancing operational efficiency and economic growth. With its commitment to global standards and integrated solutions, it has become a leader in supporting economic activities locally and globally. One of its founders holds honorary consul positions for Malawi and is a special advisor to Uganda, overseeing labor files for several African countries. He also heads the Ugandan Islamic Chamber of Commerce and the Saudi Business Council, further strengthening regional and international economic relations.",
+    "leadership": "Leadership",
+    "leadershipText": "Injaaz Global Group strives to be the cornerstone in achieving sustainable development goals and Vision 2030 by innovating in providing integrated services that enhance customer experience and create economic and social value. At Injaaz Global Group, we believe that 'Excellence is not an option, it is a commitment' that we work on daily to build the future."
+  },
+  "visit":"Visit Website"
 
-  "integrations": {
-    "PreHeading": "Integrations Tools",
-    "Heading": "Seamless Integrations with Your Tools",
-    "SubHeading": "ADVIX connects effortlessly with the tools you already use, streamlining your financial processes."
-  },
-  "testimonials": {
-    "Heading": "With ADVIX, we can easily navigate complex financial data and make informed decisions quickly. Exceptional tool!"
-  },
-
-  "Blogs": {
-    "PreHeading": "Latest posts",
-    "Heading": "Insights from Our Experts",
-    "SubHeading": "Explore the latest trends and tips in financial management with our expert blog posts.",
-    "cta": "View all posts",
-    "list": [
-      {
-        "heading": "Easy Data Analysis",
-        "subheading": "Turns complex financial data into clear insights, making it easy for you to understand and act on."
-      },
-      {
-        "heading": "Non-Financial Managers",
-        "subheading": "Simplifies financial reports and guides you with key questions, helping you make informed decisions effortlessly."
-      },
-      {
-        "heading": "Fast Insights",
-        "subheading": "Provides real-time, actionable insights to help you make quick and effective decisions for your business."
-      },
-      {
-        "heading": "Affordable Expertise",
-        "subheading": "Offers expert financial analysis and recommendations at a fraction of the cost, enhancing your business."
-      }
-    ]
-  },
-  "location": {
-    "Heading": "Where to Find Us",
-    "SubHeading": "ADVIX is proud to serve businesses worldwide. Visit or contact one of our offices in your region for personalized support.",
-    "CommunicationChannels": [
-      {
-        "title": "Support",
-        "description": "Our friendly team is here to help."
-      },
-      {
-        "title": "Sales",
-        "description": "Questions or queries? Get in touch!"
-      },
-      {
-        "title": "Phone",
-        "description": "53 Suwar Street, Al-Yasmin, Thaqif"
-      }
-    ]
-  }
 }

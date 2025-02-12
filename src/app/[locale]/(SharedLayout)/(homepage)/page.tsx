@@ -9,7 +9,7 @@ const Home = async ({ params: { locale } }: { params: { locale: string } }) => {
   const { t } = await initTranslations(locale, ["homepage"]);
 
   return (
-      <Hero  />
+      <Hero t={t} locale={locale}  />
   );
 };
 

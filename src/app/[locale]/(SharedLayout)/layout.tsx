@@ -34,8 +34,8 @@ export default async function Layout({
   }}
 ></div>
         {/* Content */}
-        <main className="flex flex-col items-center min-h-[990px] relative gap-[200px] p-6">
-          <Header locale={locale} />
+        <main className="flex flex-col items-center ltr:min-h-[1350px] rtl:min-h-[1100px] rtl:sm:min-h-[990px] ltr:sm:min-h-[990px] relative gap-[100px] sm:gap-[200px] p-6">
+          <Header  />
           {children}
           {/* <Footer locale={locale} /> */}
         </main>
