@@ -315,7 +315,7 @@ We believe that qualified human resources are the essential foundation for the s
 animate={{ height: isExpanded ? (isSmallScreenPopup ? "auto" : "278px") : "126px" }}
 exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
-        className="flex w-full xl:w-[1230px] py-[33px] px-[40px] flex-col gap-[24px] items-center shrink-0 rounded-[24px] relative bg-[#1e1e1e90] z-[5]"
+        className="flex w-full xl:w-[1230px] py-[33px] px-[40px] flex-col gap-[24px] items-center shrink-0 rounded-[24px] relative bg-[#1e1e1e90] z-[1] sm:z-[5]"
       >
         <div className="flex w-full xl:w-[1150px] gap-[16px] justify-center items-start shrink-0 flex-wrap relative">
           <AnimatePresence>

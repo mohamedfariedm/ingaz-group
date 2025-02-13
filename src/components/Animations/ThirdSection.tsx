@@ -63,27 +63,27 @@ let {t}=useTranslation("homepage")
                 ✖
               </div>
             </div>
-            <div className=" flex md:hidden justify-center items-center h-[80px]">
+            <div className=" flex md:hidden justify-center items-center h-[80px] mx-auto">
                 <img
                   src={data.image}
                   alt="Logo"
                   className="h-[80px] max-w-[250px] object-contain"
                 />
               </div>
-            <div className="flex w-full xl:w-[1360px] flex-col gap-[64px] items-start flex-nowrap relative z-[1] mt-[108px] mr-0 mb-0 ml-[40px]">
+            <div className="flex w-full xl:w-[1360px] flex-col gap-[64px] items-start flex-nowrap relative z-[1] mt-[108px] mr-0 mb-0 sm:ml-[40px]">
               <div className="flex flex-col gap-[24px] items-start self-stretch shrink-0 flex-nowrap relative z-[2]">
                 <span className=" self-stretch shrink-0 basis-auto  text-[32px] font-medium leading-[58px] text-[#fff] relative text-start xl:whitespace-pre-line z-[3]">
                   {data.title1}
                 </span>
-                <span className="flex w-full xl:w-[1360px] h-[140px] justify-start items-start self-stretch shrink-0  text-[16px] font-medium leading-[35px] text-[#8c8c8c] relative text-start overflow-hidden z-[4] whitespace-pre-line">
+                <span className="flex w-full xl:w-[1360px] xl:h-[140px] justify-start items-start self-stretch shrink-0  text-[16px] font-medium leading-[35px] text-[#8c8c8c] relative text-start overflow-hidden z-[4] whitespace-pre-line">
                   {data.description1}
                 </span>
               </div>
-              <div className="flex h-[287px] flex-col gap-[24px] items-start self-stretch shrink-0 flex-nowrap relative z-[5]">
+              <div className="flex md:h-[287px] flex-col gap-[24px] items-start self-stretch shrink-0 flex-nowrap relative z-[5]">
                 <span className="flex xl:w-[459px] xl:h-[58px] justify-start items-start shrink-0 basis-auto  text-[32px] font-medium leading-[58px] text-[#fff] relative text-start xl:whitespace-nowrap z-[6]">
                   {data.title2}
                 </span>
-                <span className="flex w-full xl:w-[1360px] justify-start items-start self-stretch grow shrink-0 basis-0  text-[16px] font-medium leading-[35px] text-[#8c8c8c] relative text-start overflow-hidden z-[7] whitespace-pre-line">
+                <span className="flex w-full xl:w-[1360px] justify-start items-start self-stretch xl:grow xl:shrink-0 xl:basis-0  text-[16px] font-medium leading-[35px] text-[#8c8c8c]  text-start overflow-hidden z-[7] whitespace-pre-line">
                   {data.description2}
                 </span>
               </div>
