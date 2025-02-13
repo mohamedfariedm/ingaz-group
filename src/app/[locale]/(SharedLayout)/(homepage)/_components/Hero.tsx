@@ -32,7 +32,7 @@ async function Hero ({ t,locale }: { t: TFunction,locale: string }) {
       </div>
     </div>
 
-    <ButtonGrid locale={locale} />
+    {/* <ButtonGrid locale={locale} /> */}
   </>
   );
 };

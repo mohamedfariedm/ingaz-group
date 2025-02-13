@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 interface PopupProps {
@@ -10,7 +11,18 @@ interface PopupProps {
 
 const Popup: React.FC<PopupProps> = ({ isOpen, onClose }) => {
   const { t } = useTranslation("about");
+ // Handle body scroll lock when the popup is open
+ useEffect(() => {
+  if (isOpen) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "";
+  }
 
+  return () => {
+    document.body.style.overflow = ""; // Cleanup on unmount
+  };
+}, [isOpen]);
   return (
     <AnimatePresence>
       {isOpen && (

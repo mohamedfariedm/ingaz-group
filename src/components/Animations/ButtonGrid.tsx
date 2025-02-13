@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ThirdSection } from "./ThirdSection";
 import Popup from "./Popup";
 
-function ButtonGrid({locale}: {locale: string}) {
+function ButtonGrid({locale,isThirdSectionOpen,setThirdSectionOpen}: {locale: string,isThirdSectionOpen: boolean,setThirdSectionOpen: any}) {
 
   const [isExpanded, setIsExpanded] = useState(false);
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -276,12 +276,21 @@ We believe that qualified human resources are the essential foundation for the s
 
     return () => window.removeEventListener("resize", updateItemsToShow); // Cleanup
   }, []);
+  useEffect(() => {
+    if (isThirdSectionOpen) {
+      setIsExpanded(true);
+    }
+  }, [isThirdSectionOpen]);
+
   const allItems = locale === "ar" ? allItemsAr : allItemsEn;
   // Dynamically slice items based on isExpanded state
   const items = isExpanded ? allItems : allItems.slice(0, itemsToShow);
 
   // Toggle Expansion
-  const toggleExpand = () => setIsExpanded(!isExpanded);
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded)
+    setThirdSectionOpen(!isExpanded)
+  };
 
   // Handle Click on Image to Open ThirdSection
   const handleImageClick = (item: any) => {
@@ -297,10 +306,11 @@ We believe that qualified human resources are the essential foundation for the s
   return (
     <>
     {/* ✅ Large and Medium Screen Grid (Default View) */}
-    <div className="main-container absolute bottom-[16px]  flex w-full xl:w-[1360px] flex-col gap-[9px] items-center mx-auto my-0">
+    <div className="flex justify-center items-center">
+    <div className="main-container absolute bottom-[16px]  flex   w-full xl:w-[1360px] flex-col gap-[9px] items-center mx-auto my-0">
       {/* Small Rounded Box (Toggles Expansion) */}
       <div
-        className="w-[62px] h-[32px] shrink-0 bg-[#202125] rounded-[16px] flex items-center justify-center cursor-pointer"
+        className="w-[62px] h-[32px] shrink-0 bg-[#202125] rounded-[16px] flex items-center justify-center cursor-pointer z-[3]"
         onClick={toggleExpand}
       >
         <img
@@ -335,6 +345,8 @@ exit={{ opacity: 0 }}
           </AnimatePresence>
         </div>
       </motion.div>
+    </div>
+
     </div>
 
 

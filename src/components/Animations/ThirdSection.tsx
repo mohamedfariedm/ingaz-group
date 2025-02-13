@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -17,12 +17,24 @@ const ThirdSectionComponent: React.FC<PopupProps> = ({
 }) => {
   console.log(data);
 let {t}=useTranslation("homepage")
+ // Handle body scroll lock when the popup is open
+ useEffect(() => {
+  if (isOpen) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "";
+  }
+
+  return () => {
+    document.body.style.overflow = ""; // Cleanup on unmount
+  };
+}, [isOpen]);
 
   return (
     <AnimatePresence>
       {isOpen && (
         <motion.div
-          className="fixed inset-0 bg-black bg-opacity-50 flex items-start justify-center z-50"
+          className="fixed inset-0 bg-black bg-opacity-50 flex items-start justify-center z-50 "
           initial={{ y: "100%" }}
           animate={{ y: 0 }}
           exit={{ y: "100%" }}
@@ -44,7 +56,7 @@ let {t}=useTranslation("homepage")
               </div>
 
               {/* Visit Website Button - Left Aligned */}
-              <button className="flex w-[169px] h-[61px] px-6 py-4 gap-2 items-center bg-[#15b86c] hover:bg-[#158450] rounded-lg border-none absolute top-0 left-0 z-[5] pointer">
+              <button className="flex rtl:w-[169px] h-[61px] px-6 py-4 gap-2 items-center bg-[#15b86c] hover:bg-[#158450] rounded-lg border-none absolute top-0 left-0 z-[5] pointer">
                 <img
                   src="/assets/images/global.svg"
                   alt="Global Icon"
@@ -75,7 +87,7 @@ let {t}=useTranslation("homepage")
                 <span className=" self-stretch shrink-0 basis-auto  text-[32px] font-medium leading-[58px] text-[#fff] relative text-start xl:whitespace-pre-line z-[3]">
                   {data.title1}
                 </span>
-                <span className="flex w-full xl:w-[1360px] xl:h-[140px] justify-start items-start self-stretch shrink-0  text-[16px] font-medium leading-[35px] text-[#8c8c8c] relative text-start overflow-hidden z-[4] whitespace-pre-line">
+                <span className="flex w-full xl:w-[1360px]  justify-start items-start self-stretch shrink-0  text-[16px] font-medium leading-[35px] text-[#8c8c8c] relative text-start overflow-hidden z-[4] whitespace-pre-line">
                   {data.description1}
                 </span>
               </div>

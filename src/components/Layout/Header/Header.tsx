@@ -1,7 +1,7 @@
 import HeaderClient from "@/components/Animations/HeaderClient";
 import LanguageChanger from "../LanguageChanger";
 
-async function Header() {
+async function Header({ locale }: { locale: string }) {
 
 
 
@@ -23,7 +23,7 @@ async function Header() {
 
   <div className="flex sm:hidden w-[200px] h-[74.491px] bg-[url(/assets/images/logo.svg)] bg-contain bg-no-repeat gap-[15.28px] justify-center items-center flex-nowrap mx-auto "/>
 
-  <HeaderClient />
+  <HeaderClient locale={locale} />
 
 </div>
 
