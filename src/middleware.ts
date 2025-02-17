@@ -4,9 +4,19 @@ import { NextRequest } from "next/server";
 
 export function middleware(request: NextRequest) {
   const url = request.nextUrl;
-  if (url.pathname === "/") {
-    request.cookies.set("NEXT_LOCALE","ar")
+  console.log("url Request:", url.pathname);
+  console.log("i18nRouterConfig:", i18nRouterConfig);
+
+  const localeCookie = request.cookies.get("NEXT_LOCALE");
+
+  if (!localeCookie) {
+    console.log("Setting NEXT_LOCALE to 'ar'");
+    
+    const response = i18nRouter(request, i18nRouterConfig);
+    response.cookies.set("NEXT_LOCALE", "ar");
+    return response;
   }
+
   return i18nRouter(request, i18nRouterConfig);
 }
 

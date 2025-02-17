@@ -2,10 +2,10 @@ export const i18nRouterConfig: {
   locales: string[];
   defaultLocale: string;
   prefixDefault: boolean;
-  serverSetCookie: "always" | "if-empty" | undefined;
+  serverSetCookie:"if-empty";
 } = {
   locales: ["ar", "en"],
   defaultLocale: "ar",
   prefixDefault: false,
-  serverSetCookie: "always",
+  serverSetCookie: "if-empty",
 };
