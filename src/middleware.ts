@@ -3,6 +3,10 @@ import { i18nRouterConfig } from "./i18nRouterConfig";
 import { NextRequest } from "next/server";
 
 export function middleware(request: NextRequest) {
+  const url = request.nextUrl;
+  if (url.pathname === "/") {
+    request.cookies.set("NEXT_LOCALE","ar")
+  }
   return i18nRouter(request, i18nRouterConfig);
 }
 
